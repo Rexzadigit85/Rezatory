@@ -4,24 +4,38 @@
 <head>
   <title>HTML Final Project</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    th,
+    td {
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    .center {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
 </head>
 
 <body>
+  <nav id="nav"></nav>
   <div style="text-align: center;">
+    <br><br>
     <h1>Congratulations HERO!</h1>
-    <nav id="nav">
-      <h4><a href="#act">• Activity</a></h4>
-      <h4><a href="#con">• Contact Us</a></h4>
+    <nav1>
+      <h4><a href="#active">• Activity</a></h4>
+      <h4><a href="#contact">• Contact Us</a></h4>
       <h3>In This Page</h3>
-      <h4><a href="#abo">• About LTS</a></h4>
-      <h4><a href="#nex">• Next Step</a></h4>
-    </nav>
+      <h4><a href="#about">• About LTS</a></h4>
+      <h4><a href="#way">• Next Step</a></h4>
+    </nav1>
     <img src="images/index.jfif" alt="index">
     <p>Developer Tools</p>
   </div>
   <hr width="50%">
   <div style="text-align: center;margin: auto;">
-    <h2>About SSH</h2>
+    <h2 id="about">About SSH</h2>
     <p>SSH was founded in 2023! :) Our school WILL help you to be a pro <b>WEB DEVELOPER</b>💻💻💻. We hope our school
       can change your life Forever!.</p>
     <h3>HTML INTRO</h3>
@@ -35,9 +49,45 @@
     </details>
   </div>
   <hr width="50%">
-  <div style="text-align: center;margin: auto;">
-    <h2>Our Way To Become A HERO!</h2>
+  <div style="text-align: center;">
+    <h2 id="way">Our Way To Become A HERO!</h2>
+    <table class="center" style="width: 40%;font-family: Georgia, 'Times New Roman', Times, serif;">
+      <thead>
+        <td colspan="3">Way</td>
+        <tr>
+          <th>CSS</th>
+          <th>Basic</th>
+          <th>Advance</th>
+        </tr>
 
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="4">Example</th>
+        </tr>
+        <tr>
+          <td>Margin</td>
+          <td>Animations</td>
+        </tr>
+        <tr>
+          <td>Padding</td>
+          <td>Transition</td>
+        </tr>
+        <tr>
+          <td>Postition</td>
+          <td>Masking</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">This Is Your Next Step</td>
+        </tr>
+      </tfoot>
+    </table>
+    <br>
+    <h3><a href="#nav">Back To Top</a></h3>
+    <hr width="50%">
+    <h3>Copyright &copy; SOFTWARE HEROES SCHOOL</h3>
   </div>
 </body>
 
