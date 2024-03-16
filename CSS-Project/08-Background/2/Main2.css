@@ -1,0 +1,16 @@
+body {
+    background-color: cadetblue;
+    background-image: url("images/background.jpg");
+    background-position: top left;
+    background-size: 700px 500px;
+    background-repeat: no-repeat;
+}
+
+div {
+    font-size: xx-large;
+    padding-left: 230px;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
