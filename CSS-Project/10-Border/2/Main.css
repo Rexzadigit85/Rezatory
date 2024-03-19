@@ -1,0 +1,26 @@
+body {
+    background-color: hsl(0, 0%, 14%);
+    margin: 0;
+}
+
+.div1 {
+    width: 90%;
+    height: 200px;
+    background-image: linear-gradient(black, teal);
+    border-radius: 8px;
+    border-left: 5px solid white;
+
+    color: white;
+    text-align: center;
+
+}
+
+.div2 {
+    width: 90%;
+    height: 150px;
+    background-image: url(Image/image.jpg);
+    border-radius: 8px;
+    border-left: 5px solid lightgreen;
+    color: black;
+    text-align: center;
+}
