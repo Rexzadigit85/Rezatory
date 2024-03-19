@@ -1,0 +1,21 @@
+body {
+    background-color: teal;
+}
+
+div.round {
+
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: black;
+    padding: 100px;
+    margin-left: 600px;
+    margin-top: 110px;
+    border: solid 1px transparent;
+}
+
+h1 {
+    font-size: 10vw;
+    color: white;
+    text-align: center;
+}
