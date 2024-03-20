@@ -1,0 +1,22 @@
+body {
+    background-image: linear-gradient(to right, darkturquoise, gray);
+}
+
+div.margin {
+    background-image: linear-gradient(rgb(137, 128, 137), rgb(222, 129, 222));
+    width: 300px;
+    border: 1px solid white;
+    padding: 10px 30px 70px 30px;
+    margin-top: 100px;
+    margin-left: 800px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+
+
+}
