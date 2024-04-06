@@ -5,20 +5,35 @@ body {
 
 }
 
-div {
-    width: 80%;
-    height: fit-content;
+.div2 {
     border-radius: 10px;
     margin: 100px;
-    padding: 50px;
-    background-color: #2E1F2B;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #352933;
     color: white;
     text-align: justify;
+    line-height: 2.1;
+    text-indent: 10px;
+    word-spacing: 5px;
+
 }
 
-h2 {
-    color: #08017B;
+.div1 {
+    color: #0f0a72;
     text-align: center;
-    text-shadow: 2px 2px 10px white;
+    text-shadow: 0 0 5px white;
+    padding-top: 5px;
+    font-size: x-large;
+    font-weight: bold;
+    word-spacing: 0;
 
+}
+
+div.border {
+    border-bottom: solid 5px white;
+}
+
+.decor {
+    text-decoration: underline rgb(73, 73, 236) 2px;
 }
