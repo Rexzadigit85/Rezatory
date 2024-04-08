@@ -1,0 +1,19 @@
+html {
+    background-color: rgb(3, 36, 16);
+}
+
+body {
+    font-family: "Audiowide", sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "sofia", sans-serif;
+    font-size: 100px;
+}
+
+h5 {
+    font-family: "sofia", sans-serif;
+    text-align: center;
+}
