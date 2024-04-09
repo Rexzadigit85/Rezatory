@@ -1,0 +1,89 @@
+html,
+body {
+    background-image: linear-gradient(#C2323A, #205DDF);
+    height: auto;
+
+}
+
+.div2 {
+    height: 100vh;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: -10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #352933;
+    color: white;
+    text-align: justify;
+    line-height: 2.1;
+    text-indent: 10px;
+    word-spacing: 5px;
+
+}
+
+.div1 {
+    color: #0f0a72;
+    text-align: center;
+    text-shadow: 0 0 5px white;
+    padding-top: 5px;
+    font-size: xx-large;
+    font-weight: bold;
+    word-spacing: 0;
+    font-family: "Grechen Fuemen", cursive;
+    font-style: normal;
+
+
+
+}
+
+div.border {
+    border-bottom: solid 5px white;
+}
+
+.decor {
+    text-decoration: underline rgb(73, 73, 236) 2px;
+}
+
+.div3 {
+    color: rgb(184, 184, 18);
+}
+
+
+.div4 {
+    color: black;
+    text-align: center;
+    text-shadow: 0 0 5px rgb(129, 4, 4);
+    padding-top: 5px;
+    font-size: x-large;
+    font-weight: bolder;
+    word-spacing: 0;
+
+}
+
+div.border1 {
+    border-bottom: solid 3px black;
+}
+
+
+.decor1 {
+    text-decoration: underline wavy rgb(129, 4, 4) 3px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: "Rubik Maze", system-ui;
+
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.decor {
+    color: aqua;
+}
