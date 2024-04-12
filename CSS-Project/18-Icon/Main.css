@@ -1,0 +1,46 @@
+body {
+    background-image: url(Sherlock/Sherlock3.jpg);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.box-1 {
+    width: 270px;
+    height: 150px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-image: url(Sherlock/Sherlock1.jpg);
+    background-size: cover;
+
+
+}
+
+.box-2 {
+    width: 270px;
+    height: 150px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    backdrop-filter: blur(15px);
+}
+
+.box-3 {
+    width: 270px;
+    height: 40px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-image: url(Sherlock/Sherlock1.jpg);
+    background-size: auto;
+}
