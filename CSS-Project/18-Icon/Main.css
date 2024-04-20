@@ -34,6 +34,7 @@ body {
     border: 1px solid black;
     border-collapse: collapse;
     backdrop-filter: blur(15px);
+
 }
 
 .box-3 {
@@ -43,4 +44,24 @@ body {
     border-collapse: collapse;
     background-image: url(Sherlock/Sherlock1.jpg);
     background-size: auto;
+    color: white;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Times, serif;
+}
+
+h3 {
+    font-family: sofia;
+
+    font-size: larger;
+    color: white;
+}
+
+.icons {
+    font-size: 20px;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: small;
 }
